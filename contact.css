@@ -1,0 +1,212 @@
+#cont{
+border: black 4px solid;
+border-radius: 4pc;}
+
+
+body{
+    overflow-y: scroll;
+    background-color: #000000;
+    overflow-x: hidden; 
+  
+  }
+  
+  #nava{
+  background-color: black;
+  }
+  
+  #logo{
+    width: 60px;
+  }
+  /*---------------------------------------image and h1----------------------------------*/
+  
+  #first-img{
+    width: 100%;
+    height: 615px;
+  }
+  .first{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9vw;
+    
+  }
+  #span{
+    color: rgb(0, 255, 213);
+  }
+  
+  #h1{
+    background: -webkit-gradient(linear, left top, left bottom, from( rgb(255, 255, 255)), to(#ffffff));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  
+  
+  
+  #nav2{
+    background-color: black;
+    color: white;
+  }
+  
+  /*****************************************section 2 courses------------------------------------*/
+  
+  
+  
+  #h2{
+  color: black;
+    display: flex;
+   justify-content: center;
+   font-size: 4vw;
+   font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Redressed', cursive;
+  font-family: 'Shippori Mincho', serif;
+  font-family: 'Source Code Pro', monospace;
+  
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .checked {
+    color: orange;
+  
+  }
+  #stars{
+    display: flex;
+    flex-direction: row;
+  
+  }
+
+  /*--------------------------------------formilaire----------------------------------------*/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #0651c2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0651c2;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  
+  /*------------------------------------------------footer------------------------------------*/
+  .footer{
+    background-color: black;
+  }
+  
+  
+  .dk-footer-form {
+    position: relative; }
+    .dk-footer-form input[type=email] {
+      padding: 14px 28px;
+      border-radius: 50px;
+      background: #000000;
+      border: 1px solid #000000; }
+    .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::-webkit-input-placeholder {
+      color: #878787;
+      font-size: 14px; }
+    .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::placeholder {
+      color: #878787;
+      font-size: 14px; }
+    .dk-footer-form button[type=submit] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 12px 24px 16px 17px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border: 1px solid #007bff;
+      background: #007bff;
+      color: #fff; }
+    .dk-footer-form button:hover {
+      cursor: pointer; }
+
+
+
